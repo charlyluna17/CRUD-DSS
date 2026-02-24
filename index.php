@@ -39,14 +39,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['accion'])) {
         
     }
 
-    //LOGICA PARA ELIMINAR UN PRODUCTO
+    //ACCION PARA ELIMINAR UN PRODUCTO
     if($_POST["accion"] == "eliminar") {
         $idEliminar = $_POST["id"];
         unset($_SESSION["productos"][$idEliminar]);
         $mensaje = "Producto eliminado exitosamente";
     }
     
-    //LOGICA PARA VENDER UN PRODUCTO
+    //ACCIONES PARA VENDER UN PRODUCTO
     if ($_POST["accion"] == "vender") {
         $idVenta = $_POST["id"];
         if (realizarVenta($idVenta)) {

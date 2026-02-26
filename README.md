@@ -4,10 +4,10 @@ Este proyecto forma parte de la asignatura Desarrollo de Aplicaciones Web con So
 
 👥 Integrantes
 - Carlos Isaac Reyes Hernandez
--
--
--
--
+- Carlos Roberto Luna Diaz
+- Jonathan Isaías Rosales Elías 
+- Manuel de Jesús Hernández Escamilla
+- Marcelo Augusto Zelaya Colocho
 
 
 
